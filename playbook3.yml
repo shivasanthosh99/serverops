@@ -1,0 +1,11 @@
+#!/usr/bin/ansible-playbook
+---
+ - name: case 3
+   hosts: <hostname>
+   tasks:
+      - name: multiple msgs
+        debug:
+          msg:
+          - "varains"
+          - "nareshins"
+          - "guruins"
