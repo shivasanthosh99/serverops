@@ -6,3 +6,6 @@
      - name: printing ip
        debug:
         msg: my ip is :{{ansible_all_ipv4_addresses}}
+#
+##
+###
