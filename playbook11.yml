@@ -1,0 +1,7 @@
+#!/usr/bin/ansible-playbook
+---
+ - name: case 11
+   hosts: <hostname>
+   tasks:
+   - command: uname -a
+####using command module
