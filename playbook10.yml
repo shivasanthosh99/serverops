@@ -1,0 +1,12 @@
+#!/usr/bin/ansible-playbook
+---
+ - name: case 10
+   hosts: <hostname>
+   vars:
+     mom: "laxmi"
+     fath: "ashok"
+     bro: "anusha"
+   tasks:
+    - debug: msg="i love {{mom}}"
+    - debug: msg="my support {{fath}}"
+    - debug: msg="my strengh {{bro}}"
