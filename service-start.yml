@@ -31,3 +31,28 @@
         service:
          name: autofs
          state: started
+      
+      - name: start ntpd
+        service:
+         name: ntpd
+         state: started
+
+      - name: start rsyslog
+        service:
+         name: rsyslog
+         state: started
+
+      - name: start crond
+        service:
+         name: crond
+         state: started
+
+      - name: stop iptables
+        service:
+         name: iptables
+         state: stopped
+
+      - name: start NetworkManager
+        service:
+         name: NetworkManager
+         state: stopped
