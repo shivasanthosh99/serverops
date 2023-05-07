@@ -1,0 +1,8 @@
+$ cat playbook1.yml
+#!/usr/bin/ansible-playbook
+---
+- name: debug
+  hosts: <hostname>
+  tasks:
+          - name: Print a simple statement
+            debug: msg="Hello World! Welcome to varains"[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[A[D[D[D[B[D[D[C[,[A[D[D[D[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C[C[C[C[C[D[D[C[C[C[C[D[D[D[Dstatemet   [B[B
