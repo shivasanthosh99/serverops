@@ -13,3 +13,6 @@
       register: date
       tags: date
     - debug: var=date.stdout
+#
+##
+###
