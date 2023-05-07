@@ -7,3 +7,5 @@
       command: uname -a
       register: kernel
     - debug: var=kernel
+###
+###
