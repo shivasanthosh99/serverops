@@ -7,3 +7,6 @@
      command: ls -l /tmp
      register: files
    - debug: var=files.stdout_lines
+#
+##
+###
