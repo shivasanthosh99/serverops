@@ -1,0 +1,8 @@
+#!/usr/bin/ansible-playbook
+---
+ - name: debug_msg
+   hosts: <hostname>
+   tasks:
+      - name: we can use msg module separately
+        debug:
+          msg: "Hi this is sai durga Shiva Santhosh Bingi"
