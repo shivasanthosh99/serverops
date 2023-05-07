@@ -1,0 +1,9 @@
+#!/usr/bin/ansible-playbook
+---
+ - name:  case 4
+   hosts: <hostname>
+   tasks:
+      - name: using filetes
+        debug:
+          msg: " the host name is: {{inventory_hostname}}"
+###this case we can use the inventory for hostname or ipaddress whatever we need
