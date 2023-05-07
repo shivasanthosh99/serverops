@@ -1,0 +1,33 @@
+---
+ - name: start the services
+   hosts: yaml
+   tasks:
+      - name: start httpd
+        service:
+         name: httpd
+         state: started
+
+      - name: start sshd
+        service:
+         name: sshd
+         state: started
+
+      - name: start vsftpd
+        service:
+         name: vsftpd
+         state: started
+
+      - name: start smb
+        service:
+         name: smb
+         state: started
+
+      - name: start nfs
+        service:
+         name: nfs
+         state: started
+
+      - name: start autofs
+        service:
+         name: autofs
+         state: started
