@@ -7,3 +7,6 @@
         debug:
           msg: " the host name is: {{inventory_hostname}}"
 ###this case we can use the inventory for hostname or ipaddress whatever we need
+###this case we can use the inventory for hostname or ipaddress whatever we need
+###this case we can use the inventory for hostname or ipaddress whatever we need
+###this case we can use the inventory for hostname or ipaddress whatever we need
